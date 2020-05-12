@@ -12,13 +12,13 @@ import torchvision.transforms as standard_transforms
 import numpy as np
 import glob
 
-from data_loader import Rescale
-from data_loader import RescaleT
-from data_loader import RandomCrop
-from data_loader import CenterCrop
-from data_loader import ToTensor
-from data_loader import ToTensorLab
-from data_loader import SalObjDataset
+from utils.data_loader import Rescale
+from utils.data_loader import RescaleT
+from utils.data_loader import RandomCrop
+from utils.data_loader import CenterCrop
+from utils.data_loader import ToTensor
+from utils.data_loader import ToTensorLab
+from utils.data_loader import SalObjDataset
 
 from model import BASNet
 
